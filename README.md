@@ -47,6 +47,8 @@ render() {
 }
 ```
 
+This isn't published, but you can do `yarn add '../path/to/this/folder'` to add it locally and try it in an actual React Native project.
+
 Thanks to [eschos24](https://github.com/eschos24) for his help with all of this!
 
 [gist](https://gist.github.com/devtanc/8ef2c8afcc4d8f87061b42f4a9c7dc80)
