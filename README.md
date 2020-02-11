@@ -47,4 +47,6 @@ render() {
 }
 ```
 
-Thanks to [eschos24](https://github.com/eschos24) for his help with all of this! [gist](https://gist.github.com/devtanc/8ef2c8afcc4d8f87061b42f4a9c7dc80)
+Thanks to [eschos24](https://github.com/eschos24) for his help with all of this!
+
+[gist](https://gist.github.com/devtanc/8ef2c8afcc4d8f87061b42f4a9c7dc80)
