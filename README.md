@@ -11,7 +11,7 @@ No matter where I looked, no place seemed to have clear documentation on how to 
 
 This is the file structure of the Native Module (created via `create-react-native-module`):
 
-```
+```text
 ├── README.md
 ├── android
 │   └── ...later
