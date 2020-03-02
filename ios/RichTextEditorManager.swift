@@ -36,5 +36,17 @@ class RichTextEditorManager : RCTViewManager, UITextViewDelegate {
         }
         
         return true
+    }    
+}
+
+@objc(RTEEventReceiver)
+class RTEEventReceiver : NSObject {
+    @objc(insertMentionText:)
+    func insertMention(text: String) {
+        print("Mention text: \(text)")
+    }
+    
+    @objc static func requiresMainQueueSetup() -> Bool {
+        return true
     }
 }

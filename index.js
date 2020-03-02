@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import isFunction from 'lodash.isfunction';
 
-const { RTEEventEmitter } = NativeModules;
+const { RTEEventEmitter, RTEEventReceiver } = NativeModules;
 // Connects the JS and Native event emitters over the RNBridge
 const RTVEventEmitter = new NativeEventEmitter(RTEEventEmitter);
 const RichTextEditor = requireNativeComponent('RichTextEditor');
@@ -42,3 +42,6 @@ export default class RichTextView extends React.Component {
     return <RichTextEditor {...this.props} />;
   }
 }
+
+export const insertMentionSelection = mention =>
+  RTEEventReceiver.insertMentionText(mention);

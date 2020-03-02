@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59090835240DBB4A00A39A4B /* RTEEventReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 59090834240DBB4A00A39A4B /* RTEEventReceiver.m */; };
 		5994091423F3213200D2BDD4 /* RichTextEditorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5994091323F3213200D2BDD4 /* RichTextEditorManager.swift */; };
 		5994091623F3218E00D2BDD4 /* RTEEventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5994091523F3218E00D2BDD4 /* RTEEventEmitter.swift */; };
 		5994091823F3219F00D2BDD4 /* RTEEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994091723F3219F00D2BDD4 /* RTEEventEmitter.m */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRichTextEditor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRichTextEditor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		59090834240DBB4A00A39A4B /* RTEEventReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTEEventReceiver.m; sourceTree = "<group>"; };
 		5994091223F3213100D2BDD4 /* RichTextEditor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RichTextEditor-Bridging-Header.h"; sourceTree = "<group>"; };
 		5994091323F3213200D2BDD4 /* RichTextEditorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextEditorManager.swift; sourceTree = "<group>"; };
 		5994091523F3218E00D2BDD4 /* RTEEventEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTEEventEmitter.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				59090834240DBB4A00A39A4B /* RTEEventReceiver.m */,
 				5994091723F3219F00D2BDD4 /* RTEEventEmitter.m */,
 				5994091523F3218E00D2BDD4 /* RTEEventEmitter.swift */,
 				5994091323F3213200D2BDD4 /* RichTextEditorManager.swift */,
@@ -126,6 +129,7 @@
 				B3E7B58A1CC2AC0600A0062D /* RichTextEditor.m in Sources */,
 				5994091423F3213200D2BDD4 /* RichTextEditorManager.swift in Sources */,
 				5994091623F3218E00D2BDD4 /* RTEEventEmitter.swift in Sources */,
+				59090835240DBB4A00A39A4B /* RTEEventReceiver.m in Sources */,
 				5994091823F3219F00D2BDD4 /* RTEEventEmitter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
