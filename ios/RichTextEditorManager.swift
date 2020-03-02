@@ -39,6 +39,11 @@ class RichTextEditorManager : RCTViewManager, UITextViewDelegate {
     }    
 }
 
+
+// This code was placed here because it will be related to the RichTextEditorManager
+// When a mention is selected in JS, the result will be received here and need to be
+// updated in the textView. This code could be in its own RTEEventReceiver.swift file
+// if you want. 
 @objc(RTEEventReceiver)
 class RTEEventReceiver : NSObject {
     @objc(insertMentionText:)
