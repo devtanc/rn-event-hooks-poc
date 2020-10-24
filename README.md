@@ -72,3 +72,5 @@ This isn't published, but you can do `yarn add '../path/to/this/folder'` to add 
 Thanks to [eschos24](https://github.com/eschos24) for his help with all of this!
 
 [gist](https://gist.github.com/devtanc/8ef2c8afcc4d8f87061b42f4a9c7dc80)
+
+[helpful article on React Native under the hood](https://levelup.gitconnected.com/react-native-events-in-gory-details-what-happens-on-the-way-to-listeners-2cee6c55940c)
